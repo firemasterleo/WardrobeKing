@@ -67,7 +67,7 @@
                                 <h2>Tees</h2>
     
                             </div>
-                            <img src="../assets/wkimage1.jpg" alt="">
+                            <!-- <img src="../assets/wkimage1.jpg" alt=""> -->
                         </div>
                         <div class="image">
                             <div class="veil">
