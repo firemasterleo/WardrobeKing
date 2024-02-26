@@ -645,74 +645,7 @@ const  shownative= () => {
         }
     }
 
-    @media (max-width: 425px) {
-
-
-        .newinfo {
-            p{
-
-                font-size: 14px;
-            }
-        }
-
-
-        .whatwedo {
-            padding-inline: 1rem;
-            h2{
-                font-size: 24px;
-                margin-bottom: 0.8rem;
-            }
-            p {
-                font-size: 15px;
-            }
-        }
-
-        .discoveryourstyle {
-            h2 {
-                font-size: 22px;
-            }
-            .buttons {
-                .casualbutton {
-                    h3 {
-                        font-size: 15px;
-                    }
-                }
-                .formalbutton {
-                    h3 {
-                        font-size: 15px;
-                    }
-                }
-                .nativebutton {
-                    h3 {
-                        font-size: 15px;
-                    }
-                }
-            }
-            .slides {
-                h2 {
-                    font-size: 17px;
-                }
-            }
-
-        }
-
-        .herosection {
-            .subsection2 {
-                .div5 {
-                    h2 {
-        
-                        font-size: 18px;
-                    }
-                }
-                
-            }
-        }
-
-            
-
-
-
-        }
+  
 }
 
 </style>
