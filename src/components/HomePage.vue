@@ -67,14 +67,14 @@
                                 <h2>Tees</h2>
     
                             </div>
-                            <img src="../assets/chinos.jpg" alt="">
+                            <img src="../assets/IMG_0610.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Chinos</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage5.jpg" alt=""> -->
+                            <img src="../assets/IMG_0625.jpg" alt="">
                         </div>
     
                     </div>
