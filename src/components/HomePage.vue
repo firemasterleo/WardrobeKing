@@ -50,7 +50,7 @@
     
                             </div>
                             
-                            <img src="../assets/shirts.jpeg" alt="">
+                            <!-- <img src="../assets/shirts.jpeg" alt=""> -->
                         </div>
                         <div class="image">
                             <div class="veil">
