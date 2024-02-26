@@ -67,14 +67,14 @@
                                 <h2>Tees</h2>
     
                             </div>
-                            <img src="../assets/wkimage1.JPG" alt="">
+                            <img src="../assets/wkimage1.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Chinos</h2>
     
                             </div>
-                            <img src="../assets/wkimage5.JPG" alt="">
+                            <img src="../assets/wkimage5.jpg" alt="">
                         </div>
     
                     </div>
@@ -86,14 +86,14 @@
                                 <h2>Shirts</h2>
     
                             </div>
-                            <img src="../assets/wkimage9.JPG" alt="">
+                            <img src="../assets/wkimage9.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Suits</h2>
     
                             </div>
-                            <img src="../assets/wkimage3.JPG" alt="">
+                            <img src="../assets/wkimage3.jpg" alt="">
                         </div>
     
                     </div>
@@ -103,14 +103,14 @@
                                 <h2>Jackets</h2>
     
                             </div>
-                            <img src="../assets/wkimage19.JPG" alt="">
+                            <img src="../assets/wkimage19.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Shoes</h2>
     
                             </div>
-                            <img src="../assets/wkimage4.JPG" alt="">
+                            <img src="../assets/wkimage4.jpg" alt="">
                         </div>
     
                     </div>
@@ -122,14 +122,14 @@
                                 <h2>Danshiki</h2>
     
                             </div>
-                            <img src="../assets/wkimage7.JPG" alt="">
+                            <img src="../assets/wkimage7.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Agbada</h2>
     
                             </div>
-                            <img src="../assets/wkimage8.JPG" alt="">
+                            <img src="../assets/wkimage8.jpg" alt="">
                         </div>
     
                     </div>
@@ -139,14 +139,14 @@
                                 <h2>Fila</h2>
     
                             </div>
-                            <img src="../assets/wkimage18.JPG" alt="">
+                            <img src="../assets/wkimage18.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Accesories</h2>
     
                             </div>
-                            <img src="../assets/wkimage16.JPG" alt="">
+                            <img src="../assets/wkimage16.jpg" alt="">
                         </div>
     
                     </div>
