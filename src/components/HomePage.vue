@@ -86,14 +86,14 @@
                                 <h2>Shirts</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage9.jpg" alt=""> -->
+                            <img src="../assets/IMG_0618.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Suits</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage3.jpg" alt=""> -->
+                            <img src="../assets/IMG_0627.jpg" alt="">
                         </div>
     
                     </div>
@@ -103,14 +103,14 @@
                                 <h2>Jackets</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage19.jpg" alt=""> -->
+                            <img src="../assets/IMG_0611.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Shoes</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage4.jpg" alt=""> -->
+                            <img src="../assets/IMG_0626.jpg" alt="">
                         </div>
     
                     </div>
@@ -122,14 +122,14 @@
                                 <h2>Danshiki</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage7.jpg" alt=""> -->
+                            <img src="../assets/IMG_0623.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Agbada</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage8.jpg" alt=""> -->
+                            <img src="../assets/IMG_0622.jpg" alt="">
                         </div>
     
                     </div>
@@ -139,14 +139,14 @@
                                 <h2>Fila</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage18.jpg" alt=""> -->
+                            <img src="../assets/IMG_0621.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Accesories</h2>
     
                             </div>
-                            <!-- <img src="../assets/wkimage16.jpg" alt=""> -->
+                            <img src="../assets/IMG_0614.jpg" alt="">
                         </div>
     
                     </div>
@@ -162,38 +162,38 @@
             <div class="subsection1">
 
                 <div class="div1">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0617.jpg" alt="">
                 </div>
                 <div class="div2">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0610.jpg" alt="">
                 </div>
                 <div class="div3">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0624.jpg" alt="">
                 </div>
             </div>
             <div class="subsection2">
 
                 <div class="div4">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0627.jpg" alt="">
                 </div>
                 <div class="div5">   
                     <h2>WARDROBE</h2>
                     <h2>KING</h2>
                 </div>
                 <div class="div6">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0611.jpg" alt="">
                 </div>
             </div>
             <div class="subsection3">
 
                 <div class="div7">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0623.jpg" alt="">
                 </div>
                 <div class="div8">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0618.jpg" alt="">
                 </div>
                 <div class="div9">   
-                         <img src="../assets/shapestationimage6.jpg" alt="">
+                    <img src="../assets/IMG_0619.jpg" alt="">
                 </div>
             </div>
             
@@ -606,8 +606,8 @@ const  shownative= () => {
             // border: green solid;
             display: flex;
             gap: 0.2rem;
-        margin-inline: 1rem;     
-       }
+            padding-inline: 1rem; 
+        width: 100vw;       }
         .subsection2 {
             // border: green solid;
             display: grid;
@@ -615,7 +615,13 @@ const  shownative= () => {
 
             grid-template-columns: 1fr 1fr 1fr;
             gap: 0.2rem;
-        margin-inline: 1rem;     
+        padding-inline: 1rem; 
+        width: 100vw;
+        .div1 {
+            width: 100%;
+
+
+        }     
 
         .div5 {
             display: flex;
@@ -633,8 +639,10 @@ const  shownative= () => {
             // border: green solid;
             display: flex;
             gap: 0.2rem;
-        margin-inline: 1rem;     
-       }
+            padding-inline: 1rem; 
+        width: 100vw;      
+    
+    }
 
 
         // column-gap: 0.5rem;
@@ -644,6 +652,7 @@ const  shownative= () => {
 
             height: 13rem;
             overflow: hidden;
+            width: 100%;
 
             img {
                 width: 100%;
