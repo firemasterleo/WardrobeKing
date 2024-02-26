@@ -162,19 +162,19 @@
             <div class="subsection1">
 
                 <div class="div1">   
-                         <img src="../assets/shapestationimage6.JPG" alt="">
+                         <img src="../assets/shapestationimage6.jpg" alt="">
                 </div>
                 <div class="div2">   
-                         <img src="../assets/shapestationimage6.JPG" alt="">
+                         <img src="../assets/shapestationimage6.jpg" alt="">
                 </div>
                 <div class="div3">   
-                         <img src="../assets/shapestationimage6.JPG" alt="">
+                         <img src="../assets/shapestationimage6.jpg" alt="">
                 </div>
             </div>
             <div class="subsection2">
 
                 <div class="div4">   
-                         <img src="../assets/shapestationimage6.JPG" alt="">
+                         <img src="../assets/shapestationimage6.jpg" alt="">
                 </div>
                 <div class="div5">   
                     <h2>WARDROBE</h2>
@@ -253,6 +253,9 @@ const  shownative= () => {
         background-color: rgb(130, 142, 114);
         color: #f8f7f4;
         // border: solid red;
+        P {
+            font-size: 18px;
+        }
         
 
     }
