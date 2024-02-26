@@ -32,45 +32,10 @@
 
   
   </div>
-  <div class="menuslide" :class="{ 'is-expanded': is_expanded }">
-
-    <div class="topmenuslide" :class="{ 'is-expanded': is_expanded }">
-
-      <div class="home" >
-          <router-link class="menuitem" to="/" @click="ToggleMenu">
-            <h3>Home</h3>
-          </router-link>
-       </div>
-
-       
-       
-       <div class="engines">
-         <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-          <h3>Engines</h3>
-        </router-link>
-      </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-
-</div>
+ 
 
 
 
-  </div>  
-
-
-
-  <div class="routersection" :class="{ 'is-expanded': is_expanded }">
-        <router-view/>
-
-      </div>
 
 
 
