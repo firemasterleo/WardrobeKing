@@ -67,12 +67,6 @@
 
 
 
-  <div class="routersection" :class="{ 'is-expanded': is_expanded }">
-        <router-view/>
-
-      </div>
-
-
 
 
 
@@ -124,6 +118,9 @@ import LenisScroll from './components/LenisScroll.vue';
 
 import { ref, onMounted, onUnmounted } from 'vue';
 
+
+
+import './sass/main.scss';
 
 
 
