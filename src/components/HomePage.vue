@@ -5,7 +5,7 @@
         </div>
         <div class="layout2">
             <div class="image">
-                <img src="../assets/shirts.jpeg" alt="">
+                <!-- <img src="../assets/shirts.jpeg" alt=""> -->
 
 
             </div>
