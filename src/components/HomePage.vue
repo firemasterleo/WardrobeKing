@@ -5,7 +5,7 @@
         </div>
         <div class="layout2">
             <div class="image">
-                <!-- <img src="../assets/shirts.jpeg" alt=""> -->
+                <img src="../assets/shirts.jpeg" alt="">
 
 
             </div>
@@ -50,14 +50,14 @@
     
                             </div>
                             
-                            <!-- <img src="../assets/shirts.jpeg" alt=""> -->
+                            <img src="../assets/shirts.jpeg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Polos</h2>
     
                             </div>
-                            <!-- <img src="../assets/tees.jpg" alt=""> -->
+                            <img src="../assets/tees.jpg" alt="">
                         </div>
     
                     </div>
