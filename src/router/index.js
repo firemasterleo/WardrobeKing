@@ -1,6 +1,19 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomePage from '../components/HomePage.vue';
-import MyEngines from '../components/MyEngines.vue';
+import UnikmeMain from '../components/UnikmeMain.vue'
+import AboutPage from '../views/AboutPage.vue'
+import BespokeCustom from '../views/BespokeCustom.vue'
+import BridalsPage from '../views/BridalsPage.vue'
+import AsoEbi from '../views/AsoEbi.vue'
+import ConsultationPage from '../views/ConsultationPage.vue'
+import OurProcessPage from '../views/OurProcessPage.vue'
+import ContactPage from '../views/ContactPage.vue'
+import AsoebiProductDetailsPage from '../components/AsoebiProductDetailsPage.vue'
+import BespokeProductDetailsPage from '../components/BespokeProductDetailsPage.vue'
+import BridalsProductDetailsPage from '../components/BridalsProductDetailsPage.vue'
+
+
+
+
 
 
 
@@ -8,32 +21,67 @@ import MyEngines from '../components/MyEngines.vue';
 const router = createRouter({
     history: createWebHistory(), 
       routes: [
-        
-        {
+          
+          {
             path: '/',
-            name: 'HomePage',
-            component: HomePage
+            component: UnikmeMain
+        },
+        {
+            path: '/Bridals',
+            component: BridalsPage 
+        },
+        {
+            path: '/Asoebi',
+            component: AsoEbi
+        },
+        {
+            path: '/Bespoke',
+            component: BespokeCustom 
+        },
+        {
+            path: '/Consultation',
+            component: ConsultationPage 
+        },
+        {
+            path: '/About',
+            component: AboutPage 
+        },
+        {
+            path: '/Contact',
+            component: ContactPage 
+        },
+        {
+            path: '/Ourprocess&FAQs',
+            component: OurProcessPage
+        },
+        {
+            path: '/Asoebi/:id',
+            name: 'AsoebiProductDetailsPage',
+            component: AsoebiProductDetailsPage,
+            props: true
 
         },
         {
-            path: '/MyEngines',
-            name: 'MyEngines',
-            component: MyEngines
+            path: '/Bridals/:id',
+            name: 'BridalsProductDetailsPage',
+            component: BridalsProductDetailsPage,
+            props: true
 
         },
+        {
+            path: '/Bespoke/:id',
+            name: 'BespokeProductDetailsPage',
+            component: BespokeProductDetailsPage,
+            props: true
+
+        }
 
         
     ],
-  scrollBehavior(to, from, savedPosition) {
-    // Return the desired position when navigating back and forward
-    if (savedPosition) {
-      return savedPosition;
-    } else {
-      // Scroll to the top by default
-      return { left: 0, top: 0 };
-    }
-  },
-  
+    scrollBehavior(to, from, savedPosition) {
+        // Scroll to the top of the page on route change
+        return { top: 0 };
+    },
 });
 
 export default router
