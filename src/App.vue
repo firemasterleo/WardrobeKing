@@ -67,10 +67,9 @@
 
 
 
-  <div class="routersection" :class="{ 'is-expanded': is_expanded }">
         <router-view/>
 
-      </div>
+
 
 
 
