@@ -171,7 +171,25 @@
 
     }
 
+    @media (max-width: 425px) {
+        .header {
+            .name {
+                font-size: 8px;
+            }
+            .logincart {
+            .login {
+                svg {
+                    width: 22px;
+                }
+            }
+            .cart
+            svg {
+                width: 22px;
+            }
+            }
 
+        }
+    }
 
 }
 .menuslide {
@@ -261,7 +279,9 @@
 
 
     
-
+    @media (max-width: 425px) {
+        
+    }
 
 }
 
