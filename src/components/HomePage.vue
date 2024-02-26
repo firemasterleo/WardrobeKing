@@ -57,7 +57,7 @@
                                 <h2>Polos</h2>
     
                             </div>
-                            <img src="../assets/tees.jpg" alt="">
+                            <!-- <img src="../assets/tees.jpg" alt=""> -->
                         </div>
     
                     </div>
@@ -67,14 +67,14 @@
                                 <h2>Tees</h2>
     
                             </div>
-                            <img src="../assets/IMG_0589.jpg" alt="">
+                            <!-- <img src="../assets/IMG_0589.jpg" alt=""> -->
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Chinos</h2>
     
                             </div>
-                            <img src="../assets/IMG_0604.jpg" alt="">
+                            <!-- <img src="../assets/IMG_0604.jpg" alt=""> -->
                         </div>
     
                     </div>
@@ -86,14 +86,14 @@
                                 <h2>Shirts</h2>
     
                             </div>
-                            <img src="../assets/IMG_0597.jpg" alt="">
+                            <!-- <img src="../assets/IMG_0597.jpg" alt=""> -->
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Suits</h2>
     
                             </div>
-                            <img src="../assets/IMG_0606.jpg" alt="">
+                            <!-- <img src="../assets/IMG_0606.jpg" alt=""> -->
                         </div>
     
                     </div>
