@@ -67,14 +67,14 @@
                                 <h2>Tees</h2>
     
                             </div>
-                            <!-- <img src="../assets/IMG_0589.jpg" alt=""> -->
+                            <img src="../assets/wkimage1.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Chinos</h2>
     
                             </div>
-                            <!-- <img src="../assets/IMG_0604.jpg" alt=""> -->
+                            <img src="../assets/wkimage5.jpg" alt="">
                         </div>
     
                     </div>
@@ -86,14 +86,14 @@
                                 <h2>Shirts</h2>
     
                             </div>
-                            <!-- <img src="../assets/IMG_0597.jpg" alt=""> -->
+                            <img src="../assets/wkimage9.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Suits</h2>
     
                             </div>
-                            <!-- <img src="../assets/IMG_0606.jpg" alt=""> -->
+                            <img src="../assets/wkimage3.jpg" alt="">
                         </div>
     
                     </div>
@@ -103,14 +103,14 @@
                                 <h2>Jackets</h2>
     
                             </div>
-                            <img src="../assets/shapestationimage6.jpg" alt="">
+                            <img src="../assets/wkimage19.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Shoes</h2>
     
                             </div>
-                            <img src="../assets/shapestationimage6.jpg" alt="">
+                            <img src="../assets/wkimage4.jpg" alt="">
                         </div>
     
                     </div>
@@ -122,14 +122,14 @@
                                 <h2>Danshiki</h2>
     
                             </div>
-                            <img src="../assets/shapestationimage6.jpg" alt="">
+                            <img src="../assets/wkimage7.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Agbada</h2>
     
                             </div>
-                            <img src="../assets/shapestationimage6.jpg" alt="">
+                            <img src="../assets/wkimage8.jpg" alt="">
                         </div>
     
                     </div>
@@ -139,14 +139,14 @@
                                 <h2>Fila</h2>
     
                             </div>
-                            <img src="../assets/shapestationimage6.jpg" alt="">
+                            <img src="../assets/wkimage18.jpg" alt="">
                         </div>
                         <div class="image">
                             <div class="veil">
                                 <h2>Accesories</h2>
     
                             </div>
-                            <img src="../assets/shapestationimage6.jpg" alt="">
+                            <img src="../assets/wkimage16.jpg" alt="">
                         </div>
     
                     </div>
@@ -440,16 +440,16 @@ const  shownative= () => {
                     }
     
                 }
-                // :nth-child(2) {
+                :nth-child(2) {
 
-                //     :nth-child(2) {
-                //         img {
-                //             object-fit: fill;
-                //         }
+                    :nth-child(2) {
+                        img {
+                            object-fit: fill;
+                        }
 
-                //     }
+                    }
 
-                // }
+                }
             }
         }
         .formalslide {
@@ -458,6 +458,7 @@ const  shownative= () => {
             // border: solid;
             position: absolute;
             top: 0;
+            width: 100vw;
 
 
             padding-inline: 1rem;
@@ -485,6 +486,7 @@ const  shownative= () => {
                 overflow: hidden;
                 display: flex;
                 gap: 0.7rem;
+                width: 100%;
 
                 .image {
                     width: 50%;
@@ -532,6 +534,8 @@ const  shownative= () => {
 
             padding-inline: 1rem;
             display: flex;
+            width: 100vw;
+
             flex-direction: column;
             gap: 1rem;
             // border: solid green;
@@ -570,6 +574,7 @@ const  shownative= () => {
                     img {
                         width: 100%;
                         height: 100%;
+                        object-fit: cover;
                     }
                     
                 }
