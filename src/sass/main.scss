@@ -230,6 +230,7 @@
         flex-direction: column;
         gap: 1.2rem;
         overflow-y: auto;
+        overflow-x: hidden;
         z-index: 19;
         transform: translateX(-8%);
                     // border-radius: 0.6rem;
