@@ -168,10 +168,7 @@
 
       </div>
 
-      <div class="nav">
-        <div class="navitem"><a href="">About Us</a></div>
-        <div class="navitem"><a href="">Contact</a></div>
-        <div class="navitem"><a href="">Terms and Condition</a></div>
+
   
       <div class="socials">
         <a href="https://www.instagram.com/_unikme_couture/" target="_blank">
@@ -186,7 +183,7 @@
         
       </div>
 
-  </div>
+
 
   <div class="rights">
     <p>© 2024 WARDROBEKING. All rights reserved.</p>
