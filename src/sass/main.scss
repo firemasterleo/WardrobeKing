@@ -251,13 +251,13 @@
                     border-bottom: solid 1px #12121296;
                     
                     width: 95%;
-                    height: 2rem;
+                    height: 1.7rem;
                     display: flex;
                     align-items: center;
                     
                     .menuitem {                
                         width: 100%;
-                        height: 3rem;
+                        height: 2rem;
                         display: flex;
                         align-items: center;
                         
@@ -296,12 +296,16 @@
 
                 }
 
+
+
+                
+
         .menuextra {
-            height: 30rem;
+            height: 20rem;
             // margin-bottom: 5rem;
-            background-color: silver;
+            background-color: rgb(228, 226, 226);
             // opacity: 0;
-            // padding-top: 2rem;
+            padding-top: 1rem;
             padding-left: 1rem;
             padding-right: 1rem;
             display: flex;
@@ -309,29 +313,51 @@
             // border: solid;
             margin-right: -1rem;
             margin-left: -1rem;
+            transform: translateX(-12%);
+
+            &.is-expanded {
+
+                transition: transform 0.5s ease-out;
+
+
+                transform: translateX(0%);
+
+                
+
+            }
 
             
             // width: 95%;
             // justify-content: center;
+
+            .register {
+                border-bottom: solid rgba(0, 0, 0, 0.265);
+                margin-bottom: 1rem;
+            }
             
+
             div {
                 display: FLEX;
                 align-items: CENTER;
                 height: 2.5rem;
+
                 
                 // border-bottom: solid 1px #12121296;
                 .menuitem {     
                     // border: solid red;           
                     width: 100%;
                     // height: 5rem;
-                    // display: flex;
+                    display: flex;
+                    gap: 1rem;
                     // align-items: center;
+
+             
                     
                     
                     h3 {
-                        font-size: 18px;
+                        font-size: 15px;
                         letter-spacing: 0.13rem;
-                        font-weight: 500;
+                        font-weight: 600;
                         // border: solid;
                         width: 100%;
                         color: #000000;
