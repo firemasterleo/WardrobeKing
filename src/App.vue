@@ -36,7 +36,7 @@
 
     <div class="topmenuslide" :class="{ 'is-expanded': is_expanded }">
 
-      <div class="home" >
+      <div class="menu" >
           <router-link class="menuitem" to="/" @click="ToggleMenu">
             <h3>Home</h3>
           </router-link>
@@ -44,20 +44,95 @@
 
        
        
-       <div class="engines">
-         <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-          <h3>Engines</h3>
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Suits</h3>
         </router-link>
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque vel minima laudantium numquam quis ab cupiditate maxime magnam itaque nobis assumenda nisi aliquid et tempore, praesentium modi quam dicta.</p>
+
+
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Native</h3>
+        </router-link>
+      </div>
+
+
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Casuals</h3>
+        </router-link>
+      </div>
+
+
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Accesories</h3>
+        </router-link>
+      </div>
+      
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Occasions</h3>
+        </router-link>
+      </div>
+
+
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Style Advive</h3>
+        </router-link>
+      </div>
+
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Styling Session</h3>
+        </router-link>
+      </div>
+
+
+       <div class="menu">
+         <router-link class="menuitem" to="/" @click="ToggleMenu">
+          <h3>Ose by WardrobeKing</h3>
+        </router-link>
+      </div>
+
+      <div class="image">
+
+        <img src="./assets/IMG_0618.jpg" alt="">
+      </div>
+      <h3>Look and Feel your Best</h3>
+      
+      
+            <div class="menuextra">
+              <div class="engines">
+                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
+                  <h3>STORE LOCATOR</h3>
+                </router-link>
+              </div>
+              <div class="engines">
+                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
+                  <h3>WISHLIST</h3>
+                </router-link>
+              </div>
+              <div class="engines">
+                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
+                  <h3>c</h3>
+                </router-link>
+              </div>
+              <div class="engines">
+                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
+                  <h3></h3>
+                </router-link>
+              </div>
+              <div class="engines">
+                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
+                  <h3></h3>
+                </router-link>
+              </div>
+      
+            </div>
+
 
 </div>
 
