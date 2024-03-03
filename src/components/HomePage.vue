@@ -190,7 +190,7 @@
                     <img src="../assets/IMG_0623.jpg" alt="">
                 </div>
                 <div class="div8">   
-                    <!-- <img src="../assets/IMG_0618.jpg" alt=""> -->
+                    <img src="../assets/IMG_0610.jpg" alt="">
                 </div>
                 <div class="div9">   
                     <img src="../assets/IMG_0619.jpg" alt="">
@@ -242,9 +242,10 @@ const  shownative= () => {
 <style lang="scss" scoped>
 .bodysection {
     height: fit-content;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
     // padding-top: 1rem;
     overflow: hidden;
+    background-color: #f8f7f4;
 
 
     .newinfo {
@@ -602,6 +603,7 @@ const  shownative= () => {
         display: flex;
         flex-direction: column;
         gap: 0.2rem;
+        // border: solid green;
 
         .subsection1 {
             // border: green solid;
