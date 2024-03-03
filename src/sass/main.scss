@@ -59,6 +59,7 @@
         display: flex;
         overflow-x: hidden;
         // border: solid;
+        
 
         align-items: center;
         justify-content: space-between;
@@ -123,6 +124,9 @@
         }
 
         .hamburger {
+            -webkit-tap-highlight-color: transparent;
+
+            
             // border: solid;
             position: relative;
             z-index: 20;
@@ -249,6 +253,8 @@
 
                 
                 .menu {
+                    -webkit-tap-highlight-color: transparent;
+
                     border-bottom: solid 1px #1212123e;
                     
                     width: 95%;
@@ -270,6 +276,7 @@
                             // border: solid;
                             width: 100%;
                             color: #000000;
+                            
                 
                         } //styling for each menulist item
                     }
