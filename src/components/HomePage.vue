@@ -256,7 +256,7 @@ const  shownative= () => {
         color: #f8f7f4;
         // border: solid red;
         P {
-            font-size: 18px;
+            font-size: 17px;
         }
         
 
