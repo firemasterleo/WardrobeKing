@@ -190,7 +190,7 @@
                     <img src="../assets/IMG_0623.jpg" alt="">
                 </div>
                 <div class="div8">   
-                    <img src="../assets/IMG_0618.jpg" alt="">
+                    <!-- <img src="../assets/IMG_0618.jpg" alt=""> -->
                 </div>
                 <div class="div9">   
                     <img src="../assets/IMG_0619.jpg" alt="">
@@ -198,124 +198,7 @@
             </div>
             
         </div>
-
-
-  <div class="menuslide" :class="{ 'is-expanded': is_expanded }">
-
-    <div class="topmenuslide" :class="{ 'is-expanded': is_expanded }">
-
-      <div class="menu" >
-          <router-link class="menuitem" to="/" @click="ToggleMenu">
-            <h3>Home</h3>
-          </router-link>
-       </div>
-
-       
-       
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Suits</h3>
-        </router-link>
-      </div>
-
-
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Native</h3>
-        </router-link>
-      </div>
-
-
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Casuals</h3>
-        </router-link>
-      </div>
-
-
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Accesories</h3>
-        </router-link>
-      </div>
-      
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Occasions</h3>
-        </router-link>
-      </div>
-
-
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Style Advive</h3>
-        </router-link>
-      </div>
-
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Styling Session</h3>
-        </router-link>
-      </div>
-
-
-       <div class="menu">
-         <router-link class="menuitem" to="/" @click="ToggleMenu">
-          <h3>Ose by WardrobeKing</h3>
-        </router-link>
-      </div>
-
-      <div class="image">
-
-        <img src="./assets/IMG_0618.jpg" alt="">
-      </div>
-      <h3>Look and Feel your Best</h3>
-      
-      
-            <div class="menuextra" :class="{ 'is-expanded': is_expanded }">
-              <div class="engines, register">
-                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-                  <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"></path></svg>
-
-                  <h3 class="signin">SIGN IN | REGISTER NOW</h3>
-                </router-link>
-              </div>
-              <div class="engines">
-                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-                  <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M12 2C7.589 2 4 5.589 4 9.995 3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12 0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"></path></svg>
-                  <h3>STORE LOCATOR</h3>
-                </router-link>
-              </div>
-              <div class="engines">
-                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-                  <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='24' height='24'><path d="M19 15v-3h-2v3h-3v2h3v3h2v-3h3v-2h-.937zM4 7h11v2H4zm0 4h11v2H4zm0 4h8v2H4z"></path></svg>
-                  <h3>WISHLIST</h3>
-                </router-link>
-              </div>
-              <div class="engines">
-                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-                  <h3>STYLING SESSION</h3>
-                </router-link>
-              </div>
-              <div class="engines">
-                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-                  <h3></h3>
-                </router-link>
-              </div>
-              <div class="engines">
-                 <router-link class="menuitem" to="/MyEngines" @click="ToggleMenu">
-                  <h3></h3>
-                </router-link>
-              </div>
-      
-            </div>
-
-
-</div>
-
-
-
-  </div>  
+        
         <footer></footer>
     </div>
 </template>
